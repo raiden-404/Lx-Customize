@@ -7,7 +7,7 @@ import { IoIosMenu } from "react-icons/io";
 
 const Header = () => {
   return (
-    <div className="dark:bg-black bg-white w-full px-4 sm:px-6 md:px-10 lg:px-12 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div className="dark:bg-black bg-white w-full px-4 sm:px-6 md:px-10 lg:px-12 py-4 flex sm:flex-row items-center justify-between gap-4">
       
       {/* Left Part: Logo + ThemeToggle */}
       <div className="w-full sm:w-auto flex items-center justify-between sm:justify-start gap-6">
@@ -35,12 +35,12 @@ const Header = () => {
         </div>
 
         {/* Icons visible only ≥ sm */}
-        <div className="hidden sm:flex items-center gap-4 sm:gap-6">
-          <IconContext.Provider value={{ className: "text-black text-[2rem] md:text-[2.4rem] dark:text-white" }}>
+        <div className="flex items-center gap-4 ">
+          <IconContext.Provider value={{ className: " hidden sm:flex sm:gap-6 text-black text-[2rem] md:text-[2.4rem] dark:text-white" }}>
             <TiShoppingCart />
           </IconContext.Provider>
 
-          <IconContext.Provider value={{ className: "text-[#15B3E4] text-[2rem] md:text-[2.4rem]" }}>
+          <IconContext.Provider value={{ className: " hidden sm:flex sm:gap-6 text-[#15B3E4] text-[2rem] md:text-[2.4rem]" }}>
             <FaRegUserCircle />
           </IconContext.Provider>
 
