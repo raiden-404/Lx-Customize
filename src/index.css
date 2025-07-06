@@ -1,3 +1,9 @@
+/* Bruno Ace Font style */
+@import url('https://fonts.cdnfonts.com/css/bruno-ace');
+/* Flat Icons */
+@import url("https://www.flaticon.com/uicons");
+
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
