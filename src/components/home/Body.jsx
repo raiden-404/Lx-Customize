@@ -1,5 +1,6 @@
 import Categories from "../header/Categories";
 import Banner from "./Banner";
+import HomeCard from "./HomeCard";
 
 const Body = () => {
     return (
@@ -9,6 +10,14 @@ const Body = () => {
             </div>
             <div className=" ">
                 <Banner />
+            </div>
+            <div className="px-[6%] pt-[4%] pb-[3%] flex items-start flex-col">
+                <h1 className="text-gray-900 dark:text-gray-100 font-bruno text-4xl underline pb-[3%] " >
+                    LATEST
+                </h1>
+                <div className="w-full h-auto flex gap-y-8 justify-between flex-wrap">
+                    <HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard /><HomeCard />
+                </div>
             </div>
         </div>
     )

@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'bruno': ['Bruno Ace', 'sans-serif']
+      'bruno': ['Bruno Ace', 'sans-serif'],
+      'inter' : ["Inter Tight", 'sans-serif']
     }
   },
   plugins: [
